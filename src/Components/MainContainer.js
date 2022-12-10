@@ -1,7 +1,7 @@
 import { TaskCard } from "./TaskCard/TaskCard";
 import { Button } from "./Buttons/Button";
 import "./MainContainer.css";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 function MainContainer() {
   const [task, setTask] = useState("");
